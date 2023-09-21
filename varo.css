@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.body {
+    background-color:white;
+    width: 100%;
+}
+.header {
+    position: relative;
+    background-color: #14233c;
+    padding-top: 1ch;
+    padding-bottom: 77px;
+}
+.nav {
+    position: absolute;
+    text-decoration-line: none;
+    bottom: 3.9ch;
+    left: 57ch;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.nav .active {
+    color: blue;
+}
+.nav a {
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 2px;
+    margin-right: 2ch;
+    text-decoration-line: none;
+}
+.nav a:hover {
+    color: blue;
+}
+.logo {
+    position: absolute;
+    width: 29ch;
+    top: 2ch;
+    left: 12ch;
+}
+.language {
+    position: absolute;
+    top: 4.9ch;
+    margin-left: 135ch;
+    background-color: none;
+    border: none;
+    background-color: #14233c;
+    color: white;
+
+}
+.sign-in {
+    position: absolute;
+    top: 3.9ch;
+    font-family: fantasy;
+    color: white;
+    left: 152ch;
+    border-radius: 5px;
+    border: 3px solid;
+    padding-bottom: 1ch;
+    padding-top: 1ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+    border-color: #00a6f7;
+    background-color: #14233c;
+}
+.sign-up {
+    position: absolute;
+    background-color: #00a6f7;
+    color: white;
+    font-family: fantasy;
+    top: 3.9ch;
+    left: 164ch;
+    border-radius: 5px;
+    padding-bottom: 1ch;
+    padding-top: 1ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+    border-color: #00a6f7;
+}
+.img_background {
+    position: absolute;
+    width: 100%;
+}
+.h1_normal {
+    position: absolute;
+    font-family: "Exo", cursive;
+    color: white;
+    top: 6ch;
+    margin-left: 10ch;
+    text-align: center!important;
+    line-height: 1.2;
+    font-size: 3.25rem;
+}
+.p_normal {
+    position: absolute;
+    color: #fff!important;
+    margin-top: 1.5rem!important;
+    text-align: center!important;
+    margin-left:40ch;
+    top: 38ch;
+    font-family: "Roboto", sans-serif;
+}
+.register  {
+    position: absolute;
+    background-color:  #00a6f7;
+    font-family: fantasy;
+    top: 52ch;
+    left: 66ch;
+    border-radius: 5px;
+    padding-bottom: 2ch;
+    padding-top: 2ch;
+    padding-left: 4ch;
+    padding-right: 4ch;
+    border-color: #00a6f7;
+    text-decoration-line: none;
+    color: white;
+}
+.white_waves {
+    position: absolute;
+    width: 100%;
+    height: 80ch;
+    top: 97ch;
+    padding-bottom: 40ch;
+}
+.first1_border {
+    position: absolute;
+    background-color: white;
+    border-radius: 9px;
+    margin-left: 12ch;
+    top: 135ch;
+    box-shadow: 1px 4px 10px #b9d2de; 
+    height: 38ch;
+    width: 33ch;
+}
+.icon_1 {
+    position:absolute;
+    top: 3ch;
+    left: 13.5ch;
+}
+.first_1 {
+    position:absolute;
+    font-family: "Exo", cursive;
+    color: #373e4a;
+    top: 6ch;
+    font-weight: 600;
+    font-size: 1.5rem;
+    left: 3ch;
+}
+.first_p {
+    position:absolute;
+    padding-bottom: 2ch;
+    padding-top: 15ch;
+    padding-left: 3ch;
+    padding-right: 3ch;
+    font-family: "Roboto", sans-serif;
+    text-align: center!important;
+    line-height: 3ch;
+    color: #373e4a;
+}
+.second2_border {
+    position: absolute;
+    background-color: white;
+    border-radius: 9px;
+    margin-left: 48ch;
+    top: 135ch;
+    box-shadow: 1px 4px 10px #b9d2de; 
+    height: 38ch;
+    width: 33ch;
+    
+}
+.icon_2 {
+    position:absolute;
+    top: 3ch;
+    left: 13.5ch;
+}
+.second_2 {
+    position:absolute;
+    font-family: "Exo", cursive;
+    color: #373e4a;
+    top: 6ch;
+    font-weight: 600;
+    font-size: 1.5rem;
+    left: 4.5ch;
+}
+.second_p {
+    position:absolute;
+    padding-bottom: 2ch;
+    padding-top: 15ch;
+    padding-left: 3ch;
+    padding-right: 4ch;
+    font-family: "Roboto", sans-serif;
+    text-align: center!important;
+    line-height: 3ch;
+    color: #373e4a;
+}
+.third3_border {
+    position: absolute;
+    background-color: white;
+    border-radius: 9px;
+    margin-left: 84ch;
+    top: 135ch;
+    box-shadow: 1px 4px 10px #b9d2de; 
+    height: 38ch;
+    width: 35ch;
+    
+}
+.icon_3 {
+    position:absolute;
+    top: 3ch;
+    left: 13.5ch;
+}
+.third_3 {
+    position:absolute;
+    font-family: "Exo", cursive;
+    color: #373e4a;
+    top: 6ch;
+    font-weight: 600;
+    font-size: 1.5rem;
+    left: 2.7ch;
+}
+.third_p {
+    position:absolute;
+    padding-bottom: 2ch;
+    padding-top: 15ch;
+    padding-left: 3ch;
+    padding-right: 3ch;
+    font-family: "Roboto", sans-serif;
+    text-align: center!important;
+    line-height: 3ch;
+    color: #373e4a;
+}
+.fourth4_border {
+    position: absolute;
+    background-color: white;
+    border-radius: 9px;
+    margin-left: 122ch;
+    top: 135ch;
+    box-shadow: 1px 4px 10px #b9d2de; 
+    height: 38ch;
+    width: 34ch;   
+}
+.icon_4 {
+    position:absolute;
+    top: 3ch;
+    left: 13.5ch;
+}
+.fourth_4 {
+    position:absolute;
+    font-family: "Exo", cursive;
+    color: #373e4a;
+    top: 6ch;
+    font-weight: 600;
+    font-size: 1.5rem;
+    left: 3ch;
+}
+.fourth_p {
+    position:absolute;
+    padding-bottom: 2ch;
+    padding-top: 15ch;
+    padding-left: 3ch;
+    padding-right: 4ch;
+    font-family: "Roboto", sans-serif;
+    text-align: center!important;
+    line-height: 3ch;
+    color: #373e4a;
+}
+.imag_e {
+    position:absolute;
+    top: 15ch;
+    margin-left: 12ch;
+    padding-bottom: 15ch;
+    width: 70ch;
+    height: 80ch;
+}
+.imag_border {
+    position: absolute;
+    background-color: #00a6f712;
+    width: 168.6ch;
+    height: 90ch;
+    top: 189ch;
+}
+.video-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 105px;
+    height: 80px;
+    background-color: #00a6f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    top: 98.7ch;
+    margin-right: 33ch;
+}
+.border_1 {
+    position: absolute;
+    border-radius: 1ch;
+    background-color: #00a6f7;
+    width: 9ch;
+    height: 9ch;
+    left: 90ch;
+    top: 222ch;
+}
+.border_2 {
+position: absolute;
+border-radius: 1ch;
+background-color: #00a6f7;
+width: 9ch;
+height: 9ch;
+left: 90ch;
+top: 239ch;
+}
+.border_3 {
+    position: absolute;
+    border-radius: 1ch;
+    background-color: #00a6f7;
+    width: 9ch;
+    height: 9ch;
+    left: 90ch;
+    top: 255ch;
+}
+.container_1 {
+    position: absolute;
+    background-color: #00a6f7;
+    width: 5ch;
+    height: 2px;
+    top: 206ch;
+    left: 88ch;
+}
+.section {
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: -1ch;
+    left:5ch;
+    font-size: 18px;
+    font-weight: normal;
+    color: #00a6f7;
+}
+.section_title {
+    position: absolute;
+    font-size: 32px;
+    font-family: "Exo", cursive;
+    top: 85ch;
+    left: 36ch;
+    color: #373e4a;
+    font-weight: 600;
+    line-height: 1.2;
+    word-break: break-word;
+}
+.section_title_1 {
+    position: absolute;
+    font-family: Exo, cursive;
+    color: rgb(55, 62, 74);
+    top: 145ch;
+    left: 67ch;
+    font-weight: 600;
+    line-height: 1.2;
+    word-break: break-word;
+    font-size: 1.25rem;
+}
+.section1 {
+    position: absolute;
+    top:162ch;
+    left: 74ch;
+    font-family:Arial;
+    color: rgb(55, 62, 74);
+    font-weight:lighter;
+    line-height: 1.2;
+    word-break: break-word;
+    font-size: 1.25rem;
+}
+.section_title_2 {
+    position: absolute;
+    font-family: Exo, cursive;
+    color: rgb(55, 62, 74);
+    top: 156ch;
+    left: 67ch;
+    font-weight: 600;
+    line-height: 1.2;
+    word-break: break-word;
+    font-size: 1.25rem;
+}
+.section2 {
+    position: absolute;
+    top:174ch;
+    left: 74ch;
+    font-family:Arial;
+    color: rgb(55, 62, 74);
+    font-weight:lighter;
+    line-height: 1.2;
+    word-break: break-word;
+    font-size: 1.25rem;
+}
+.section_title_3 {
+    position: absolute;
+    font-family: Exo, cursive;
+    color: rgb(55, 62, 74);
+    top: 166.5ch;
+    left: 67ch;
+    font-weight: 600;
+    line-height: 1.2;
+    word-break: break-word;
+    font-size: 1.25rem;
+}
+.section3 {
+    position: absolute;
+    top:185.5ch;
+    left: 74ch;
+    font-family:Arial;
+    color: rgb(55, 62, 74);
+    font-weight:lighter;
+    line-height: 1.2;
+    word-break: break-word;
+    font-size: 1.25rem;
+}
